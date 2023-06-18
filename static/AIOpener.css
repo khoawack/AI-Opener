@@ -1,0 +1,226 @@
+/* AIOpener.css */
+
+/* Text css */
+body {
+	margin: 0;
+}
+
+div {
+	border: 5px solid #40434E;
+	margin: 0 auto;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 20pt;
+    color: white;
+	font-family: trebuchet MS;
+}
+
+h5 {
+    font-size: 15pt;
+	font-family: trebuchet MS;
+    color: white;
+}
+
+p {
+    font-size: 10pt;
+    font-family: Trebuchet MS;
+    color: white;
+}
+/* End text css */
+
+/* Style upload button css */
+.uploadButton {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+	text-decoration: none;
+	border: 12px solid #508AA8;
+	line-height: 350%;
+	background-color: #BA1200;
+	padding: 8px;
+	border-radius: 10px;
+	text-align: center;
+    font-family: trebuchet MS;
+    color: white;
+    height: 150px;
+    width: 400px;
+}
+
+.uploadButton:hover {
+	color: black;
+	background-color: white;
+	font-weight: bold;
+}
+/* End upload button css */
+
+/* Style submit button css */
+.submitButton {
+    display: flex; 
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+	text-decoration: none;
+	border: 6px solid #508AA8;
+	line-height: 250%;
+	background-color: #BA1200;
+    font-family: trebuchet MS;
+    color: white;
+	padding: 8px;
+	border-radius: 10px;
+    height: 60px;
+    width: 100px;
+}
+
+.submitButton:hover {
+	color: black;
+	background-color: white;
+	font-weight: bold;
+}
+/* End submit button css */
+
+/* Textbox input css */
+.input {
+    display: flex; 
+    margin-top: 45px;
+    margin-right: 70px;
+    width: 490px;
+    height: 200px;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 15px;
+    background-color: #9DD1F1;
+  }
+/* End textbox input css */
+
+/* Percentage animation css */
+.progress-bar {
+    width: 100px;
+    height: 100px;
+    border: 10px solid #000000;
+    border-radius: 50%;
+    position: relative;
+  }
+  
+  .progress {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    clip: rect(0, 100px, 100px, 50px);
+  }
+  
+  .progress:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 10px solid rgb(255, 255, 255);
+    clip: rect(0, 50px, 100px, 0);
+  }
+  
+  .progress-bar .progress {
+    animation: rotate 2s linear forwards;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .progressText {
+    display: flex; 
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+	margin-left: 25px;
+    width: 10%;
+	position: absolute;
+	border: 0px solid #9DD1F1;
+    font-size: 14pt;
+    font-family: Trebuchet MS;
+    color: white;
+    width: 50px;
+    height: 30px;
+  }
+/* End percentage animation css */
+
+.uploadButtonSection {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+	width: 10%;
+	position: absolute;
+	margin-top: 50px;
+	margin-left: -600px;
+	border: 0px solid #9DD1F1;
+    width: 500px;
+    height: 300px;
+}
+
+.textboxSection {
+    width: 10%;
+	position: absolute;
+	margin-top: 50px;
+	margin-right: -600px;
+	border: 0px solid #9DD1F1;
+    width: 500px;
+    height: 300px;
+}
+
+.submitButtonSection {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+	position: absolute;
+	margin-top: 340px;
+	margin-left: 10px;
+	border: 0px solid #9DD1F1;
+    width: 1100px;
+    height: 80px;
+}
+
+.outputSection {
+    width: 10%;
+	position: absolute;
+	margin-top: 420px;
+	margin-left: 0px;
+	border: 0px solid #9DD1F1;
+    width: 1100px;
+    height: 200px;
+}
+
+.percentageSection {
+    width: 10%;
+	position: absolute;
+	margin-top: 420px;
+	margin-left: 1000px;
+	border: 1px solid #9DD1F1;
+    width: 150px;
+    height: 200px;
+}
+
+.webhead {
+	height: 100px;
+	background-color: #031927;
+}
+
+.webbody {
+	height: 650px;
+	background-color: #264055;
+    border: 9px solid black;
+}

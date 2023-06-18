@@ -1,2 +1,2 @@
-# AI-Opener
+# CalHacks2023
 Guangdong Tigers
